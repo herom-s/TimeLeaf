@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TimeLeaf</string>
+
+    <!-- Onboarding -->
+    <string name="onboardingSplash_txt">Start your workout today!</string>
+    <string name="onboardingSplash_btn_txt">Start</string>
+    <string name="onboardingPageFirst_txt">Start your workout today!</string>
+    <string name="onboardingPageSecond_txt">Start your workout today!</string>
+    <string name="onboardingPageThird_txt">Start your workout today!</string>
+    <string name="onboardingPageFourth_txt">Start your workout today!</string>
+    <string name="onboardingPageFifth_txt">Start your workout today!</string>
+</resources>
