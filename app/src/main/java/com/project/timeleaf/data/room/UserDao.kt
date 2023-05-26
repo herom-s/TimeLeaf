@@ -5,8 +5,8 @@ import com.project.timeleaf.data.User
 import kotlinx.coroutines.flow.Flow
 
 @Dao
-interface UserDao : BaseDao<User> {
+abstract class UserDao : BaseDao<User> {
 
     @Query("SELECT * from user LIMIT 1")
-    fun getUser(): Flow<User>
+    abstract fun getUser(): Flow<User>
 }

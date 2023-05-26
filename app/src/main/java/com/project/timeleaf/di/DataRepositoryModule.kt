@@ -11,8 +11,7 @@ import javax.inject.Singleton
 
 @Module
 @InstallIn(SingletonComponent::class)
-object DataRepositoryModule  {
-
+object DataRepositoryModule {
     @Provides
     @Singleton
     fun provideDataStoreRepository(
