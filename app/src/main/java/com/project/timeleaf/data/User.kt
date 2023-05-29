@@ -13,5 +13,8 @@ data class User(
     @ColumnInfo(name = "age") val age: Int,
     @ColumnInfo(name = "lvl_physical_activity") val lvl_physical_activity: Double,
     @ColumnInfo(name = "weight") val weight: Double,
-    @ColumnInfo(name = "height") val height: Double
+    @ColumnInfo(name = "height") val height: Double,
+    @ColumnInfo(name = "bmi") val bmi: Double,
+    @ColumnInfo(name = "bmr") val bmr: Double,
+    @ColumnInfo(name = "tev") val tev: Double
 )
