@@ -1,12 +1,11 @@
 package com.project.timeleaf.data
-import kotlinx.coroutines.flow.Flow
 
 
 interface UserRepository  {
     /**
-     * Retrieve an user from the given data source that matches with the [user_id].
+     * Retrieve an user from the given data source that matches with the [userId].
      */
-    fun getUserStream(): Flow<User?>
+    fun getUser(): User?
 
     /**
      * Insert user in the data source

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TimeLeaf</string>
+    <string name="app_name" translatable="false">TimeLeaf</string>
 
     <!-- Start Onboarding -->
     <string name="onboardingSplashHeader_txt">Start your workout today!</string>
@@ -9,31 +9,41 @@
     <string name="onboardingPagerContinue_btn_txt">Continue</string>
     <string name="onboardingPagerFinalize_btn_txt">Finalize</string>
 
-    <string name="onboardingPagerFirstHeader_txt">Hey, What’s your name?</string>
-    <string name="onboardingPagerFirstPlaceholder_txt">User Name</string>
+    <string-array name="onboardingPagerHeaders_txt">
+        <item>Hello, What’s your name?</item>
+        <item>What’s your gender?</item>
+        <item>What’s your birthdate?</item>
+        <item>What’s your physical activity level?</item>
+        <item>What’s your height and weight?</item>
+    </string-array>
 
-    <string name="onboardingPagerSecondHeader_txt">What’s your gender?</string>
-    <string name="onboardingPagerSecondDropDown1_txt">Male</string>
-    <string name="onboardingPagerSecondDropDown2_txt">Female</string>
+    <string-array name="onboardingPagerLabels_txt">
+        <item>Name</item>
+        <item>Height</item>
+        <item>Weight</item>
+    </string-array>
 
-    <string name="onboardingPagerThirdHeader_txt">What’s your birthdate?</string>
+    <string-array name="onboardingPagerSecondDropDown_txt">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
 
-    <!-- Start Onboarding Fourth Page Strings -->
-    <string name="onboardingPagerFourthHeader_txt">What’s your activity level?</string>
-    <string name="onboardingPagerFourthValueHeader1_txt">Sedentary</string>
-    <string name="onboardingPagerFourthValueHeader2_txt">Light Intensity Activity</string>
-    <string name="onboardingPagerFourthValueHeader3_txt">Moderate Intensity Activity</string>
-    <string name="onboardingPagerFourthValueHeader4_txt">High Intensity Activity</string>
-    <string name="onboardingPagerFourthValueHeader5_txt">Very High Intensity Activity</string>
-    <string name="onboardingPagerFourthValueTip1_txt">Spends a lot of time sitting, without physical activity.</string>
-    <string name="onboardingPagerFourthValueTip2_txt">Domestic activities, walks of at least 15 minutes 2 to 3 times a week.</string>
-    <string name="onboardingPagerFourthValueTip3_txt">Walking for at least 30 minutes, physical activities (gymnastics, bodybuilding, soccer, swimming…) 2 to 3 times a week.</string>
-    <string name="onboardingPagerFourthValueTip4_txt">At least 30 minutes of jogging, physical activity (gymnastics, bodybuilding, soccer, swimming…) more than 3 times a week.</string>
-    <string name="onboardingPagerFourthValueTip5_txt">Professional athletes, marathoners or cyclists.</string>
-    <!-- End Onboarding Fourth Page Strings -->
+    <string-array name="onboardingPagerFourthValueHeaders_txt">
+        <item>Sedentary</item>
+        <item>Light Intensity Activity</item>
+        <item>Moderate Intensity Activity</item>
+        <item>High Intensity Activity</item>
+        <item>Very High Intensity Activity</item>
+    </string-array>
 
-    <string name="onboardingPagerFifthHeader_txt">What’s your height and weight?</string>
-    <string name="onboardingPagerFifthPlaceholder1_txt">Height</string>
-    <string name="onboardingPagerFifthPlaceholder2_txt">Weight</string>
+    <string-array name="onboardingPagerFourthValueTips_txt">
+        <item>Spends a lot of time sitting, without physical activity.</item>
+        <item>Domestic activities, walks of at least 15 minutes 2 to 3 times a week.</item>
+        <item>Walking for at least 30 minutes, physical activities (gymnastics, bodybuilding, soccer, swimming…) 2 to 3 times a week.</item>
+        <item>At least 30 minutes of jogging, physical activity (gymnastics, bodybuilding, soccer, swimming…) more than 3 times a week.</item>
+        <item>Professional athletes, marathoners, or cyclists.</item>
+    </string-array>
+
+
     <!-- End Onboarding -->
 </resources>

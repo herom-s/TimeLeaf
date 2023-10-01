@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TimeLeaf</string>
+
+    <string name="onboardingSplashHeader_txt">Comece seu treino hoje!</string>
+    <string name="onboardingSplash_btn_txt">Começar</string>
+
+    <string name="onboardingPagerBack_btn_txt">Voltar</string>
+    <string name="onboardingPagerContinue_btn_txt">Continue</string>
+    <string name="onboardingPagerFinalize_btn_txt">Finalizar</string>
+
+    <string-array name="onboardingPagerHeaders_txt">
+        <item>Olá, qual é o seu nome?</item>
+        <item>Qual é o seu gênero?</item>
+        <item>Qual é a sua data de nascimento?</item>
+        <item>Qual é o seu nível de atividade física?</item>
+        <item>Qual é a sua altura e peso?</item>
+    </string-array>
+
+    <string-array name="onboardingPagerLabels_txt">
+        <item>Nome</item>
+        <item>Altura</item>
+        <item>Peso</item>
+    </string-array>
+
+    <string-array name="onboardingPagerSecondDropDown_txt">
+        <item>Masculino</item>
+        <item>Feminino</item>
+    </string-array>
+
+    <!-- Start Onboarding Fourth Page Strings -->
+    <string-array name="onboardingPagerFourthValueHeaders_txt">
+        <item>Sedentário</item>
+        <item>Atividade De Intensidade Leve</item>
+        <item>Atividade De Intensidade Moderada</item>
+        <item>Atividade De Intensidade Alta </item>
+        <item>Atividade De Intensidade Muito Alta</item>
+    </string-array>
+    <string-array name="onboardingPagerFourthValueTips_txt">
+        <item>Passa muito tempo sentado, sem atividade física.</item>
+        <item>Atividades domésticas, caminhadas de pelo menos 15 minutos 2 a 3 vezes por semana.</item>
+        <item>Caminhada de pelo menos 30 minutos, atividades físicas (ginástica, musculação, futebol, natação…) 2 a 3 vezes por semana.</item>
+        <item>Pelo menos 30 minutos de corrida, atividade física (ginástica, musculação, futebol, natação…) mais de 3 vezes por semana.</item>
+        <item>Atletas profissionais, maratonistas ou ciclistas.</item>
+    </string-array>
+
+</resources>

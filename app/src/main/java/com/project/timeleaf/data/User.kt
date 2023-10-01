@@ -7,11 +7,11 @@ import androidx.room.PrimaryKey
 
 @Entity(tableName = "user")
 data class User(
-    @PrimaryKey(autoGenerate = true) @ColumnInfo(name = "user_id") val user_id : Int,
+    @PrimaryKey(autoGenerate = true) @ColumnInfo(name = "userId") val userId : Int,
     @ColumnInfo(name = "name") val name: String,
     @ColumnInfo(name = "gender") val gender: String,
     @ColumnInfo(name = "age") val age: Int,
-    @ColumnInfo(name = "lvl_physical_activity") val lvl_physical_activity: Double,
+    @ColumnInfo(name = "lvlPhysicalActivity") val lvlPhysicalActivity: Double,
     @ColumnInfo(name = "weight") val weight: Double,
     @ColumnInfo(name = "height") val height: Double,
     @ColumnInfo(name = "bmi") val bmi: Double,
