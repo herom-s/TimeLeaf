@@ -7,7 +7,7 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.project.timeleaf.ui.onboarding.OnBoardingScreen
+import com.project.onboarding.OnBoardingScreen
 import com.project.timeleaf.ui.coach.CoachScreen
 
 @ExperimentalMaterial3Api
@@ -16,8 +16,14 @@ import com.project.timeleaf.ui.coach.CoachScreen
 @Composable
 fun SetupNavGraph(
     navController: NavHostController,
-    startDestination: String
+    shouldHideOnboarding: Boolean
 ) {
+
+    val startDestination = when(shouldHideOnboarding) {
+        true -> Screen.Coach.route
+        false -> Screen.OnBoarding.route
+    }
+
     NavHost(
         navController = navController,
         startDestination = startDestination

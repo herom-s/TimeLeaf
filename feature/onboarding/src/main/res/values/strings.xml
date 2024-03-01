@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onboardingSplashHeader_txt">Start your workout today!</string>
+    <string name="onboardingSplash_btn_txt">Start</string>
+</resources>
